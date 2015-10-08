@@ -19,5 +19,13 @@ describe('fizz buzz', function (){
     it('should return fizz given 3', function () {
         expect(fizzbuzz.getResult(3)).toEqual(0);
     });
+        
+    it('should return buzz given 5', function () {
+        expect(fizzbuzz.getResult(5)).toEqual(0);
+    });
+        
+    it('should return fizz given 6', function () {
+        expect(fizzbuzz.getResult(6)).toEqual(0);
+    });
 
 });
